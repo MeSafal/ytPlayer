@@ -1,16 +1,51 @@
-# ytplayer
+# 🎬 Simple YouTube Player — Flutter
 
-A new Flutter project.
+A **minimal Flutter app** that plays YouTube videos from a given URL using the **youtube_player_flutter** package.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+* Enter a YouTube video URL
+* Plays the video directly in-app
+* Simple, clean UI
+* Built with Flutter and `youtube_player_flutter` package
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Purpose
+
+This project was built to:
+
+* Learn **YouTube video integration** in Flutter
+* Practice **package usage and state management**
+* Create a functional, real-world app in minimal code
+
+---
+
+## Tech Stack
+
+* Flutter
+* Dart
+* `youtube_player_flutter` package
+
+---
+
+## Quick Start
+
+```bash
+git clone <repo-url>
+cd <repo-folder>
+flutter pub get
+flutter run
+```
+
+---
+
+## Notes
+
+* Only supports public YouTube videos
+* Minimal UI for learning/demo purposes
+* Easy to extend with playlists, fullscreen, or controls
+
+---
